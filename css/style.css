@@ -12,10 +12,16 @@ img {
 ul {
     list-style: none;
 }
-/* Debug */
-body {
-    background-color: blueviolet;
+
+a {  
+    text-decoration: none;
 }
+
+/* Debug */
+
+/* body {
+    background-color: blueviolet;
+} */
 
 /* COMMON */
 /* Utilities */
@@ -41,15 +47,90 @@ body {
     align-items: center;
 }
 
+/* Utilities/colors */
 .bg-orange {
-    background-color: rgb(212, 140, 68);
+    background-color: rgb(206, 167, 59);
 }
 
-.py-5 {
-    padding: 0 5px;
+.bg-blue{
+    background-color: rgb(46, 46, 161);
 }
+
+.bg-grey{
+    background-color: rgb(211, 211, 211);
+}
+
+/* Utilities/spacing */
+.py-10 {
+    padding: 10px 0;
+}
+
+.px-10 {
+    padding: 0 10px;
+}
+
+.mxy-40 {
+    margin: 40px 0;
+}
+
+.dashed {
+    border: dashed 2px black;
+}
+
 /* HEADER */
 header {
     background-color: lightblue;
     height: 60px;
 }
+
+nav {
+    height: 40px;
+    padding: 0 10px;
+}
+
+.logo, .login {
+    width: 20%;
+}
+
+.nav-list {
+    width: 60%;
+    border-left: dotted 4px black;
+    border-right: dotted 4px black;
+}
+
+.nav-list ul {
+    gap: 10px;
+}
+
+.login {
+    text-align: end;
+}
+
+/* MAIN */
+ .hero-section{
+    min-height: 400px;
+ }
+
+ .inner-hero{
+    width:900px;
+    min-height: 400px;
+    background-color: rgb(217, 146, 219);
+ }
+
+ .main-content {
+    width: 100%;
+ }
+    
+
+ .main-text {
+    width:60%;
+    min-height: 500px;
+    background-color: rgb(81, 134, 231);
+ }
+
+ .main-img {
+    width:40%;
+    min-height: 500px;
+    background-color: rgb(255, 205, 205);
+ }
+
